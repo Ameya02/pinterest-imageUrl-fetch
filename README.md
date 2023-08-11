@@ -16,4 +16,7 @@ Follow the prompts to enter Pinterest tags. Tags should be comma-separated. The 
 
 Example:-
 Enter Pinterest tags (comma-separated): nature, photography, travel
-Image URLs saved to 
+Image URLs saved to pinterest_images.csv 
+
+Notes:-
+This script is provided as an example and should be use responsibly and in accordance with Pinterest's terms of services.
