@@ -1,10 +1,11 @@
 import csv
-import requests from bs4 import BeautifulSoup
+import requests 
+from bs4 import BeautifulSoup
 
 def get_pinterest_images(tags):
     base_url = f"https://www.pinterest.com/search/pins/?q={'+'.join(tags)}"
     response = requests.get(base_url)
-
+#My repo
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
         image_urls = []
